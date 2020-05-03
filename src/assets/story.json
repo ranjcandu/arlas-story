@@ -1,0 +1,48 @@
+[
+  {
+    "text": "One day there was a giant who lived on a cloud very far away.",
+    "image": "/images/1.png",
+    "options": [
+      { "text": "Go to the giant's garden", "toPage": 1 },
+      { "text": "Go to the giant's kitchen", "toPage": 6 }
+    ]
+  },
+  {
+    "text": "The giant was in his garden watering his plants using a giant bucket. When he saw....",
+    "image": "/images/2.png",
+    "options": [{ "text": "Find out what the giant saw.", "toPage": 2 }]
+  },
+  {
+    "text": "He saw a little boy called Jack climbing up the beanstalk that reached into his cloud.",
+    "image": "/images/3.png",
+    "options": [
+      { "text": "Be nice to Jack", "toPage": 4 },
+      { "text": "Scare Jack", "toPage": 3 }
+    ]
+  },
+  {
+    "text": "Yum yum yum said the giant I'm gonna get you and gobble you up. Soon as Jack heard the scary giant he ran back down the beanstalk and never came back.",
+    "image": "/images/4.png",
+    "options": [{ "text": "Start again", "toPage": 0 }]
+  },
+  {
+    "text": "\"Hello would you like to come to my tea party\"? said the giant?",
+    "image": "/images/5.png",
+    "options": [{ "text": "Yes", "toPage": 5 }, { "text": "No", "toPage": 3 }]
+  },
+  {
+    "text": "The Giant, Jack and his Chicken have the best tea party ever and they live happily ever after.",
+    "image": "/images/6.png",
+    "options": [{ "text": "Start Again", "toPage": 0 }]
+  },
+  {
+    "text": "On his way to the kitchen the giant accidently steps on his chicken which lets out the loudest squawk, the giant quickly lifts his foot up just in time.",
+    "image": "/images/7.png",
+    "options": [{ "text": "Take the chicken to hospital.", "toPage": 7 }]
+  },
+  {
+    "text": "The giant picks up his chicken and quickly rushes it to hospital. After a while the chicken feels better so they go back home.",
+    "image": "/images/8.png",
+    "options": [{ "text": "Go to the giant's garden", "toPage": 1 }]
+  }
+]
