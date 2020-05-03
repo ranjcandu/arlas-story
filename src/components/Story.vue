@@ -1,16 +1,16 @@
 <template>
   <div class="page">
-    <h2>{{currentPage.text}}</h2>
+    <h3>{{currentPage.text}}</h3>
     <div class="image-wrapper">
       <img :src="currentPage.image">
     </div>
     <div class="action-buttons">
-      <span
+      <button
         v-for="(option, index) in currentPage.options"
         :key="index"
-        class="action-button"
+        class="button button-outline action-button"
         @click="setPage(option.toPage)"
-      >{{option.text}}</span>
+      >{{option.text}}</button>
     </div>
   </div>
 </template>
@@ -47,7 +47,7 @@ export default {
   padding: 20px;
 }
 
-h2 {
+h3 {
   margin: 0;
 }
 
@@ -66,10 +66,7 @@ img {
 }
 
 .action-button {
-  display: inline-block;
   margin: 10px;
-  padding: 20px;
-  border: 1px solid #333;
-  cursor: pointer;
+  height: 5rem;
 }
 </style>
